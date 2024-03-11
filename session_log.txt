@@ -1,0 +1,96 @@
+=== System === 
+
+--- System Info ---
+Snapshot Time: 3/10/24, 7:48:24 PM CDT
+Board Name: reks1
+Marketing Name: 
+CpuModel Name: Intel(R) Celeron(R) CPU  N3060  @ 1.60GHz
+Total Memory (kib): 3979184
+Thread Count:  2
+Cpu Max Clock Speed (kHz):  2480000
+Version: 103.14816.0
+Has Battery: true
+
+--- Battery Charge Status ---
+Battery State: kFull
+Power Source: kAc
+Power Time: 
+Current Now (mA): 0
+Chage Now (mAh): 3525
+
+--- Battery Health ---
+Charge Full Now (mAh): 3525
+Charge Full Design (mAh): 4050
+Cycle Count: 102
+Wear Percentage: 87
+
+--- Memory Usage ---
+Total Memory (kib): 3979184
+Available Memory (kib): 767360
+Free Memory (kib): 207900
+
+--- Cpu Usage ---
+Usage User (%): 39
+Usage System (%): 14
+Usage Free (%): 45
+Avg Temp (C): 40
+Current scaled frequency (kHz): 1667008
+
+
+--- Test Routines --- 
+
+No routines of this type were run in the session.
+
+=== Networking === 
+
+--- Network Info ---
+
+Name: netis_VAP1
+Type: WiFi
+State: Online
+Active: True
+MAC Address: 88:78:73:27:62:B2
+Signal Strength: 89
+Frequency: 2462
+SSID: netis_VAP1
+BSSID: BC:62:CE:2A:63:2B
+Security: None
+Gateway: 192.168.1.1
+IP Address: 192.168.1.23
+Name Servers: 8.8.8.8, 8.8.8.8, 192.168.1.1
+Subnet Mask: 255.255.255.0
+
+--- Test Routines --- 
+
+3/10/24, 7:30:40 PM - GatewayCanBePinged - Started
+3/10/24, 7:30:51 PM - GatewayCanBePinged - Failed
+3/10/24, 7:30:51 PM - LanConnectivity - Started
+3/10/24, 7:30:52 PM - LanConnectivity - Passed
+3/10/24, 7:30:52 PM - ArcPing - Started
+3/10/24, 7:30:59 PM - ArcPing - Failed
+3/10/24, 7:30:59 PM - DnsResolverPresent - Started
+3/10/24, 7:31:00 PM - DnsResolverPresent - Passed
+3/10/24, 7:31:00 PM - DnsResolution - Started
+3/10/24, 7:31:02 PM - DnsResolution - Passed
+3/10/24, 7:31:02 PM - DnsLatency - Started
+3/10/24, 7:31:03 PM - DnsLatency - Passed
+3/10/24, 7:31:03 PM - ArcDnsResolution - Started
+3/10/24, 7:31:14 PM - ArcDnsResolution - Failed
+3/10/24, 7:31:14 PM - SignalStrength - Started
+3/10/24, 7:31:15 PM - SignalStrength - Passed
+3/10/24, 7:31:15 PM - CaptivePortal - Started
+3/10/24, 7:31:16 PM - CaptivePortal - Passed
+3/10/24, 7:31:16 PM - HasSecureWiFiConnection - Started
+3/10/24, 7:31:17 PM - HasSecureWiFiConnection - Failed
+3/10/24, 7:31:17 PM - HttpsFirewall - Started
+3/10/24, 7:31:25 PM - HttpsFirewall - Passed
+3/10/24, 7:31:25 PM - HttpFirewall - Started
+3/10/24, 7:31:26 PM - HttpFirewall - Passed
+3/10/24, 7:31:26 PM - HttpsLatency - Started
+3/10/24, 7:31:28 PM - HttpsLatency - Passed
+3/10/24, 7:31:28 PM - ArcHttp - Started
+3/10/24, 7:31:29 PM - ArcHttp - Passed
+
+--- Network Events ---
+
+3/10/24, 7:30:40 PM - WiFi network [88:78:73:27:62:B2] started in state Online
